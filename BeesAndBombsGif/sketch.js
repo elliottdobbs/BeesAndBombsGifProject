@@ -44,12 +44,7 @@ function draw() {
 
     for (var i = 0; i < 13; i++){
         polys[i].draw();
-    }
-    
-    for (var i = 0; i < 13; i++){
         polys[i].drawCircle();
-    }
-    for (var i = 0; i < 13; i++){
         polys[i].newDotPos();
     }
     
