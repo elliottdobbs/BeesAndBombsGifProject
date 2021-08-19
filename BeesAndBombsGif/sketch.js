@@ -33,9 +33,6 @@ function setup() {
     
     for (var i = 0; i < 13; i++){
         speedMultipliers[i] /= 30;
-    }
-    
-    for (var i = 0; i < 13; i++){
         polys[i].speed = speedMultipliers[i] * speed;
     }
 }
